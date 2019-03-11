@@ -1,0 +1,36 @@
+<Project>
+    <PropertyGroup>
+        <!-- Repository and project URLs (used in nuget packages) -->
+        <RepositoryUrl>https://github.com/shuvava/graphql-examples</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/shuvava/net.pipes/blob/master/README.md</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/shuvava/net.pipes/blob/master/LICENSE</PackageLicenseUrl>
+    </PropertyGroup>
+    <PropertyGroup>
+        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+        <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+        <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+        <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+        <GenerateNeutralResourcesLanguageAttribute>false</GenerateNeutralResourcesLanguageAttribute>
+    </PropertyGroup>
+    <PropertyGroup>
+        <Company>Home Inc</Company>
+        <LangVersion>latest</LangVersion>
+        <Copyright></Copyright>
+    </PropertyGroup>
+    <PropertyGroup>
+        <NewtonsoftJson>11.0.2</NewtonsoftJson>
+        <NerdbankGitVersioning>2.3.38</NerdbankGitVersioning>
+        <MsLogging>2.2.0</MsLogging>
+        <MsConfiguration>2.2.0</MsConfiguration>
+        <MsConfigurationOptions>2.2.0</MsConfigurationOptions>
+        <MsExtensionsCaching>2.2.0</MsExtensionsCaching>
+        <GraphQL>2.4.0</GraphQL>
+        <AspNetCore>2.2.0</AspNetCore>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <OutputPath>$(SolutionDir)build\$(MSBuildProjectName)\bin\$(Configuration)</OutputPath>
+        <BaseIntermediateOutputPath>..\..\build\$(MSBuildProjectName)\obj</BaseIntermediateOutputPath>
+    </PropertyGroup>
+</Project>
