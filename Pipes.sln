@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28705.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.pipes01", "src\ConsoleApp.pipes01\ConsoleApp.pipes01.csproj", "{F9083544-F9F2-4F50-8391-26FC3B332842}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.pipes01", "src\ConsoleApp.pipes01\ConsoleApp.pipes01.csproj", "{F9083544-F9F2-4F50-8391-26FC3B332842}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp.PipeToStream", "src\ConsoleApp.PipeToStream\ConsoleApp.PipeToStream.csproj", "{EDA4D238-D78E-422C-90DB-DCE3B704EDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Stream.Service", "src\WebApp.Stream.Service\WebApp.Stream.Service.csproj", "{0E481E3D-C962-4BF2-B145-B0F95D9DD35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F9083544-F9F2-4F50-8391-26FC3B332842}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9083544-F9F2-4F50-8391-26FC3B332842}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9083544-F9F2-4F50-8391-26FC3B332842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA4D238-D78E-422C-90DB-DCE3B704EDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA4D238-D78E-422C-90DB-DCE3B704EDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA4D238-D78E-422C-90DB-DCE3B704EDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA4D238-D78E-422C-90DB-DCE3B704EDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E481E3D-C962-4BF2-B145-B0F95D9DD35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E481E3D-C962-4BF2-B145-B0F95D9DD35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E481E3D-C962-4BF2-B145-B0F95D9DD35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E481E3D-C962-4BF2-B145-B0F95D9DD35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

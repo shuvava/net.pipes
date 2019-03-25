@@ -20,13 +20,12 @@
     </PropertyGroup>
     <PropertyGroup>
         <NewtonsoftJson>11.0.2</NewtonsoftJson>
-        <NerdbankGitVersioning>2.3.38</NerdbankGitVersioning>
+        <Pipelines>2.3.38</Pipelines>
+        <AspNetCore>2.2.0</AspNetCore>
         <MsLogging>2.2.0</MsLogging>
         <MsConfiguration>2.2.0</MsConfiguration>
         <MsConfigurationOptions>2.2.0</MsConfigurationOptions>
         <MsExtensionsCaching>2.2.0</MsExtensionsCaching>
-        <GraphQL>2.4.0</GraphQL>
-        <AspNetCore>2.2.0</AspNetCore>
     </PropertyGroup>
     
     <PropertyGroup>
